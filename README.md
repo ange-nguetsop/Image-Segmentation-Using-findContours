@@ -23,7 +23,7 @@ This project aims to develop a system capable of detecting and tracking a specif
 The developed system successfully identified and clearly encircled tomatoes in various images and could even count the number of tomatoes detected by the system. The system is adaptable and can be modified to isolate other fruits or vegetables, such as avocados or oranges.
 However, the cv2.findContours method has its limitations, as it was impossible to accurately identify tomatoes when they were clustered together. In such cases, it is preferable to use the watershed method, which is specifically designed to address this type of issue.
 An Example where the system failed to accurately identify tomatoes:
-![Beispiel](https://github.com/ange-nguetsop/ObjectTracking/blob/master/result1.png)
+![Beispiel](https://github.com/ange-nguetsop/ObjectTracking/blob/master/result2.png)
 ### Application Areas and Utility
 #### Food Industry
 - **Sorting and Quality**: Used for automatic sorting of fruits and vegetables based on their color, which often indicates their ripeness or quality.
