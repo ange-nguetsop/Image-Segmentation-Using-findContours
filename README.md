@@ -29,7 +29,10 @@ An Example where the system failed to accurately identify tomatoes:
 
 ![Beispiel](https://github.com/ange-nguetsop/ObjectTracking/blob/master/result2.png)
 
+
 Here you can see how to solve this problem with the watershed method: [https://github.com/ange-nguetsop/ImageSegmentation001]
+But you can already see the result here: 
+![Alt Watershed](https://github.com/ange-nguetsop/ObjectTrackingWithFindContours/blob/master/Watershed.png)
 ### Application Areas and Utility
 #### Food Industry
 - **Sorting and Quality**: Used for automatic sorting of fruits and vegetables based on their color, which often indicates their ripeness or quality.
