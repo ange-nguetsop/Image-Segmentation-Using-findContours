@@ -1,5 +1,6 @@
 ### Introduction
-This project aims to develop a system capable of detecting and tracking a specific object based on its color, applicable to both still images and videos. Such technology finds its utility in various fields, particularly in the industry, where precise object recognition can be crucial.
+This project aims to develop a system capable of detecting and tracking a specific object based on its color, applicable to both still images and videos using findContours algorithm. Such technology finds its utility in various fields, particularly in the industry, where precise object recognition can be crucial.
+
 
 ### Objectives
 - **Color Detection**: Isolate a specific object (like a tomato) in an image using its color.
