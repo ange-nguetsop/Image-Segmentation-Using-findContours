@@ -33,19 +33,6 @@ An Example where the system failed to accurately identify tomatoes:
 Here you can see how to solve this problem with the watershed method: [https://github.com/ange-nguetsop/ImageSegmentation001]
 But you can already see the result here: 
 ![Alt Watershed](https://github.com/ange-nguetsop/ObjectTrackingWithFindContours/blob/master/Watershed.png)
-### Application Areas and Utility
-#### Food Industry
-- **Sorting and Quality**: Used for automatic sorting of fruits and vegetables based on their color, which often indicates their ripeness or quality.
-- **Process Automation**: Integration into production lines for the automation of harvesting, packaging, and quality control.
-
-#### Surveillance and Security
-- **Detection of Specific Objects**: Identification and tracking of objects or clothing of a specific color in monitored areas for security reasons.
-
-#### Commerce and Marketing
-- **Interactive Display**: Used in interactive applications where users can select objects by color to receive information or special offers.
-
-#### Research and Education
-- **Educational Tool**: Used as a teaching tool to demonstrate the principles of computer vision and image processing.
 
 ### Possibilities for Improvement
 - **Automation of HSV Value Determination**: Development of an algorithm to automatically adjust HSV values based on the object (fruit or vegetable) to be detected and isolated.
