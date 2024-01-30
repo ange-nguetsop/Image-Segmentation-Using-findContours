@@ -1,5 +1,5 @@
 ### Introduction
-This project aims to develop a system capable of detecting and tracking a specific object based on its color, applicable to both still images and videos using findContours algorithm. Such technology finds its utility in various fields, particularly in the industry, where precise object recognition can be crucial.
+This project aims to develop a system capable of detecting and tracking a specific object based on its color, applicable to both still images and videos using findContours algorithm. FindContours is a function provided by the OpenCV library in Python. It is used to detect and extract contours from binary images, which can be useful for various computer vision tasks like object detection, image segmentation, and shape analysis.
 
 
 ### Objectives
@@ -12,12 +12,14 @@ This project aims to develop a system capable of detecting and tracking a specif
 
 ### Challenges and Solutions
 1. **Calibration of HSV Values**
-   The first challenge was to find the optimal HSV values to isolate the desired color under various lighting conditions. For this, a function for manual adjustment of HSV values was used, testing on multiple photos taken under varied conditions. After numerous trials, the ideal values were determined.
+   The first challenge was to find the optimal HSV values to isolate the desired color under various lighting conditions. For this, a function for manual adjustment of HSV values was used, testing on multiple photos taken under varied conditions. After numerous trials, the ideal values were determined and then we have this result:
+![Result](https://github.com/ange-nguetsop/ObjectTracking/blob/master/zwischenErgebnis.png)   
 
-2. **Detection of Closed Contours**
-   A major issue encountered was forcing the algorithm to detect only closed contours. Various image processing techniques such as erosion, dilation, and thresholding were applied to achieve closed contours, a crucial step for the system's accuracy.
+3. **Detection of Closed Contours**
+   A major issue encountered was forcing the algorithm to detect only closed contours. Various image processing techniques such as erosion, dilation, and thresholding were applied to achieve closed contours, a crucial step for the system's accuracy. The image before the use of cv2.findContours is:
+![Result](https://github.com/ange-nguetsop/ObjectTracking/blob/master/zwischen2.png)
 
-3. **Filtering of Contours**
+5. **Filtering of Contours**
    After obtaining closed contours, it was necessary to filter the internal contours to keep only the most external ones. This step effectively isolated the object of interest.
 
 ### Results
