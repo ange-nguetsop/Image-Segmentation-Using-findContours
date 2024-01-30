@@ -17,7 +17,7 @@ This project aims to develop a system capable of detecting and tracking a specif
 
 3. **Detection of Closed Contours**
    A major issue encountered was forcing the algorithm to detect only closed contours. Various image processing techniques such as erosion, dilation, and thresholding were applied to achieve closed contours, a crucial step for the system's accuracy. The image before the use of cv2.findContours is:
-![Result](https://github.com/ange-nguetsop/ObjectTracking/blob/master/zwischen2.png)
+![Result](https://github.com/ange-nguetsop/ObjectTracking/blob/master/zwichen2.png)
 
 5. **Filtering of Contours**
    After obtaining closed contours, it was necessary to filter the internal contours to keep only the most external ones. This step effectively isolated the object of interest.
